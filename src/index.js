@@ -499,10 +499,10 @@ class Switcher extends React.Component {
     }
 }
 
-ReactDOM.render(
-    <Switcher />,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     <Switcher />,
+//     document.getElementById('root')
+// );
 
 ////////////////
 
