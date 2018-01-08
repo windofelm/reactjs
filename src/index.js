@@ -483,3 +483,26 @@ ReactDOM.render(
     <BasicExample />,
     document.getElementById('root')
 );
+
+/////////////////////// Event Handler
+
+class Switcher extends React.Component {
+    render() {
+        return (
+            <button onClick={ this._handleButtonClick }>
+                click me
+            </button>
+        );
+    }
+    _handleButtonClick() {
+        console.log('Button is clicked');
+    }
+}
+
+ReactDOM.render(
+    <Switcher />,
+    document.getElementById('root')
+);
+
+////////////////
+
